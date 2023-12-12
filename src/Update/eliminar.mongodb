@@ -1,0 +1,13 @@
+use("espoch_store")  // Selecciona la base de datos "espoch_store"
+
+db.products.updateOne(
+    // Query: Identifica el documento que se va a actualizar
+    {_id: 1},
+
+    // Cambio: Utiliza $unset para eliminar el campo "nombre_del_campo"
+    {
+        $unset: {
+            name: 1  // El valor 1 indica que se eliminará el campo
+}
+}
+)
