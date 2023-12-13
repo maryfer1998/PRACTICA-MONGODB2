@@ -1,2 +1,2 @@
-use("espoch_store")
-db.createCollection("Universidades")
+use("Base_datos3")
+db.createCollection("Espoch")

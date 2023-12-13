@@ -1,0 +1,35 @@
+use("Base_datos3")
+db.Espoch.drop()
+db.Espoch.insertMany([
+    {
+        
+        name:"Maholy",
+        edad: 8,
+        sexo: "Femenino",
+        nacionalidad: "Ecuatoriana"
+    },
+    {
+        name:"Wilson",
+        edad: 35,
+        sexo: "Masculino",
+        nacionalidad: "Ecuatoriana"
+    },
+    {
+        name:"Laura",
+        edad: 20,
+        sexo: "Femenino",
+        nacionalidad: "Colombiana"
+    },
+    {
+        _id:4, 
+        name:"Carlos",
+        edad: 21,
+        sexo: "Masculino",
+        nacionalidad: "Ecuatoriana"
+    },
+    {
+        ordered:false,
+    }
+    
+])
+db.Espoch.find()

@@ -1,2 +1,2 @@
-use("espoch_store")
-db.products.find()
+use("Base_datos3")
+db.Espoch.find()
