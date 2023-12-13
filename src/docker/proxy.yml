@@ -8,7 +8,7 @@ services:
       - 80:80
       - 443:443
       - 1433:1433
-      - 27017:27017
+      - 27019:27019
 
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro

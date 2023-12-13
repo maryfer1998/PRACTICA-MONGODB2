@@ -1,0 +1,32 @@
+use("bd3")
+db.Espoch.insertOne({
+    name:"Product 1",
+    price:1200,
+    talla:2,
+    color:"rojo"
+})
+
+use("bd3")
+db.Espoch.insertOne({
+    name:"Product 2",
+    price:1100,
+    talla:3,
+    color:"azul"
+})
+use("bd3")
+db.Espoch.insertOne({
+    
+    name:"Product 3",
+    price:1200,
+    talla:3,
+    color:"morado"
+})
+use("bd3")
+db.products.insertOne({
+    _id:1,
+    name:"Product 4",
+    price:200,
+    talla:3,
+    color:"celeste"
+})
+

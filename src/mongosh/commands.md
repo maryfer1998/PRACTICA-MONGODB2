@@ -1,4 +1,4 @@
-mongodb://root:root123@192.168.157.135:27018/?authMechanism=DEFAULT&tls=false
+mongodb://root:root123@192.168.157.135:27021/?authMechanism=DEFAULT&tls=false
 
-use("espoch_store")
+use("practica")
 db.productos.find()

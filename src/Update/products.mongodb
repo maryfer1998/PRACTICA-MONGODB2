@@ -16,7 +16,7 @@ db.products.insertMany([
         name:"Product 3",
         price:1400
     },
-    {
+     { 
         _id:4, 
         name:"Product 4",
         price: 1500
